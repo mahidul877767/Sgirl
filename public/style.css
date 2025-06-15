@@ -1,0 +1,13 @@
+
+body {
+  font-family: sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+video {
+  background: #000;
+  object-fit: cover;
+}
+button {
+  font-size: 1rem;
+  font-weight: bold;
+}
