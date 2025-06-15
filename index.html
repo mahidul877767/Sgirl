@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OmegirlX - Video Chat</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="video-wrapper">
+      <video id="remoteVideo" autoplay playsinline></video>
+      <video id="localVideo" muted autoplay playsinline class="local"></video>
+    </div>
+
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="nextBtn">Next</button>
+      <button id="stopBtn">Stop</button>
+    </div>
+
+    <div class="gender-filter">
+      <label>Gender:</label>
+      <select>
+        <option>Any</option>
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
